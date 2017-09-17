@@ -1,0 +1,118 @@
+\chapter{Data}
+
+\section{todo}
+
+\subsection{Use case: RNAseq}
+
+\begin{itemize}
+\item Our data is composed by all the RNA sequences.
+\item We want to have a human reference genome to identify the human RNA in the database.
+\item We also need a reference genomes of bacteria to retrieve the bacterias' DNA.
+\item Functional database that groups proteins (DNA) sequences.
+\item Network annotation
+\end{itemize}
+
+\subsection{Use case: tumor mutations}
+
+Check the mutations if are due a tumor or the single subject.
+
+\subsection{Reasons to need data}
+
+Mine literature, create models, benchmark analysis/prediction method.
+
+\section{Data in the life science}
+
+%todo copy image
+
+All of these molecular levels and connections may be measured, predicted and annotaded.
+
+\subsection{Data publicly available}
+
+Sequences (gene and genomes, proteins, structures), clusters of sequences (clusters of orthologous groups, homologous proteins, clusters of structures).
+
+Sequences are experimental data, clusters are data derived from the experimental one.
+
+\subsection{How to represent knowledge}
+
+Knowledge: literature, public knowledge and observations.
+
+Relations: taxonomic classification, metabolic pathways and protein-protein interactions.
+
+Knowladge is human readable, relations are machine readable.
+
+\subsubsection{Data curation}
+
+Is a term used to indicate management activities required to maintain research 
+data long-term such that it is available for reuse and preservation.
+
+\subsection{Collection of Databases \& Integration}
+
+EBI/EMBL: genomes, nucleotide, genome-phenome, proteins, etc.
+
+NCBI: nucleotides collection.
+
+NAR: nucleic acids research database
+
+\subsection{Gene Ontology (GO)}
+
+Collecting genes using an ontology (function).
+
+The aim of GO is describing gene products in terms of their associated: 
+biological processes, cellular components and molecular function. These
+three structured ontologies are a species-indipendent manner to describe 
+genes.
+
+\subsubsection{What is an ontology?}
+
+It is a formal naming and definition of types, properties, and interrelationships
+of the entities.
+An ontology compartmentalizes the variables needed for some set of computations
+and establishes the relationships between them.
+
+\subsubsection{Applying GO}
+
+Evidence code: each annotation must include an evidence code that indicates how...
+
+\paragraph{Evidence Codes Ontology}
+
+todo
+
+\subsection{Provenance in Bioinformatics}
+
+It is the chrnology of the ownership, custody or location of historical object.
+In data science it is a historical record of data and its origins.
+
+\subsection{Pfam database}
+
+It is a large collection of protein families.
+%todo continue
+
+Database that classifies proteins based on sequence. Protein sequences are split 
+into domains to be classified. HMMs are used to annotate new sequences. The seed
+allignment for the HMMs are curated.
+
+\subsubsection{Clans in Pfam}
+
+Families that have significant sequence similarity (are homologous), but cannot 
+be put together in a single HMM profile, are put in separate families, which form 
+a clan.
+
+\subsubsection{Pfam A vs Pfam B}
+
+todo
+
+\subsection{Structural Classification of Proteins (SCOP)}
+
+The aim of this database is to provide a detailed...%todo
+
+\subsubsection{Structural Classification}
+
+Provides solutions for two major challenges:
+\begin{itemize}
+\item groups similar protein structures together...
+\item todo
+\end{itemize}
+
+\subsection{STRING}
+
+todo
