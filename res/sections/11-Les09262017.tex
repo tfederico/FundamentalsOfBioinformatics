@@ -1,0 +1,61 @@
+\chapter{Sequence entropy and harmony}
+
+\section{Conservation}
+
+%todo
+
+$$
+\Omega = \frac{\sum_{x}{N_{x}}!}{\prod_{x}{N_{x}!}}
+$$
+
+$$
+Entropy = ln{\Omega}
+$$
+
+\section{Identification of functional sites}
+
+Functional differences between protein (sub-)families. Current practice:
+\begin{itemize}
+\item use multiple sequence alignment
+\item look for conserved sites within (sub-)families (ignore sites that are 
+overall conserved).
+\end{itemize}
+
+Example binders vs non-binders: sites crucial for binding (conserved) and sites 
+determining non-binding (not conserved).
+
+Take into account non-conserved sites as well! (comparing amino-acid 
+compositions).
+
+Sequence harmony: looks at differences instead of conservation.
+
+%todo
+
+\subsection{Conditional entropy}
+
+Entropy of joint occurrence of value $i$ for event $x$ and value $j$ for event 
+$y$:
+
+$$
+H(x,y) = - \sum_{i,j}{p(i,j) \cdot \log p(i,j)}
+$$
+
+and
+
+$$
+H(x) = - \sum_{i,j}{p(i,j) \cdot \log{\sum_{j}{p(i,j)}}}
+$$
+$$
+H(y) = - \sum_{i,j}{p(i,j) \cdot \log{\sum_{i}{p(i,j)}}}
+$$
+
+so that $H(x,y) \leq H(x) + H(y)$
+
+\subsection{Co-occurrence in practice}
+
+Measure of mutial information, by relative entropy:
+
+$H_{y}(x) = - \sum_{i,j}{something}$
+
+\subsection{Relative Entropy in Sequence Analysis}
+

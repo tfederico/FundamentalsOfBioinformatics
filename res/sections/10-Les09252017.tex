@@ -1,0 +1,98 @@
+\chapter{Sequencing}
+
+%todo slides 1-19
+
+{Single cycle: washing ingredients}
+
+Multiple washing steps for read of single nucleotide (single cycle). Depending 
+on manufacturer. Typical ingredients:
+
+\begin{itemize}
+\item polymerase;
+\item nucleotides;
+\item fluorescence;
+\item "temporary blockage";
+\item light to excite fluorescence.
+\end{itemize}
+
+{NGS output}
+
+Millions of sequenced reads (we do not know their order). Two computational 
+solutions: alignment to a reference genome (or shorter sequence) of the reads, 
+or de novo assembly of a genome.
+
+{Alignment to reference (read mapping)}
+
+Input: millions of sequenced framents, a reference genome sequence.
+
+Process: String matching of the sequence reads against the reference (allow for 
+small variations). Reference and sequenced organism need to be closely related 
+(at least the same species).
+
+Output: alignment and sequence of new strain.
+
+{Reference alignment}
+
+Math sequence to a given genome. Same species different individual, closely 
+related species. Red area is the goodness of the coverage.
+
+%todo copy image
+
+Match sequence to a `similar' genome
+
+%todo copy image
+
+{How to search between millions of genomes}
+
+%todo
+
+{Mapping reads - Software}
+
+General alignment programs: BLAST (and variants)
+
+Specialised programs: %todo
+
+Choice of software depends what you want to use it for (e.g. how does the 
+aligner handle split reads, mismatches, indels).
+
+{Question - Mismatches}
+
+What may be the cause of any mismatches alignment between the sequence read 
+and the reference genome? Sequencing errors, contamination or errors induced by 
+duplication of DNA
+
+
+Would it be useful if we could differentiate between different sources of 
+noise? How could this be done? Sequencing errors.
+
+{Depth of coverage}
+
+Usage of sequencing ``depth'' (avg on the whole genome) and sequencing ``coverage'': 
+\begin{itemize}
+\item sequencing depth: average number of reads per base (ofter over entire 
+sequencing sample);
+\item coverage: number of reads per base (ofter on specific region).
+\end{itemize}
+
+{NGS output}
+
+%tood
+
+{Assembly questions}
+
+Given a pile of reads, you do not know the order, you do not have a good 
+reference genome. What would you do?
+Looking for overlaps between my reads and my genome and between reads.
+
+Do you think the sequencing depth matters? Would it be easier to solve this 
+problem with a low or high sequecing depth?
+Easier with high sequencing depth (lot of reads make it easier).
+
+{De novo assembly}
+
+%todo copy
+Output: contigs %todo check slides, this is the right output
+
+{Assembly: puzzling reads into a genome}
+
+%todo copy slides

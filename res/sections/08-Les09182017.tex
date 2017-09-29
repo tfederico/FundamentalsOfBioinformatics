@@ -1,0 +1,83 @@
+\chapter{Benchmarking}
+
+\section{Main question}
+
+How good is your BLAST-hit? (is it a real homology o no?)
+
+It depends on similarity.
+
+\subsection{The confusion table}
+
+Match hit/no hit of your data with the ones in the database in order to evaluate
+the goodness of the predictor (sensitivity, specificity, accuracy, coverage,
+recall).
+
+If the hit is not in the database, we don't know how to consider that hit/no hit
+since we can't match it with anything.
+
+All positives: TP + FN
+All negatives: TN + FP
+All positive predictions: TP + FP
+
+\subsection{Tradeoff}
+
+It is easy to predict all know cases (low threshold) and also not to make any
+errors (high threshold). We need to optimize false positive (fist case) and
+false negative (second case).
+
+\subsection{Measures}
+
+\subsubsection{Sensitivity (Recall)}
+
+$Sensitivity/Coverage/Recall = True positive rate = Sn = \frac{TP}{TP + FN}$
+
+\subsubsection{Specificity}
+
+$Specificity = 1 - Error = Sp = \frac{TN}{TN + FP}$
+
+$Error = 1 - Sp = Err = \frac{FP}{TN + FP}$
+
+\subsubsection{Precision}
+
+$Precision = Positive predicted value = PPV = \frac{TP}{TP + FP}$
+
+$Error per Query = (1-PPV) = EPQ = \frac{FP}{TP + FP}$
+
+\subsubsection{Accuracy}
+
+$Accuracy = \frac{TP + TN}{TP + FN + TN + FP}$
+
+$Balanced Accuracy = \frac{Sn + Sp}{2} = \frac{TP}{2 \cdot (TP + FN)} +
+\frac{TN}{2 \cdot (TN + FP)}$
+
+\subsubsection{Matthews correlation coefficient}
+
+$Matthews correlation coefficient$
+
+\subsection{Different plots}
+
+Receiver-Operator Characteristics (ROC)
+
+Coverage vs Specificity: coverage vs specificity
+
+Precision/Recall: precision vs recall
+
+Coverage/EPQ: coverage vs error per query.
+
+\section{Paper questions}
+
+\begin{enumerate}
+\item The advantages of using EPQ instead of FPR is that we have TP instead of
+TN, because we don't know which are the TN;
+\item Three classes of methods: sequence-sequence, sequence-profile,
+profile-profile. They perform differently: better coverage for profile-profile
+methods. Also, p-p performs better because it does (not?) uses structures;
+\item The reference database was CATH. It was a fine choice since the golden
+standard uses structure-structure, so we have a good way to evaluate how our
+method performs;
+\item In trans-membrane proteins could be better to look for sequence-sequence
+instead of profile-profile.
+\end{enumerate}
+
+Why is it important to detect homologous? Because if we detect homologous, we
+know that the two subjects derive from a common anchestor.

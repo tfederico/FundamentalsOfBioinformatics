@@ -1,4 +1,4 @@
-Computer and Network Security Notes
+Fundamentals of Bioinformatics
 ===================================
 
 [![Build Status](https://travis-ci.org/Polpetta/CNSNotes.svg?branch=master)](https://travis-ci.org/Polpetta/CNSNotes)
