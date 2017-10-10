@@ -6,6 +6,7 @@
 *.fls
 *.out
 *.toc
+*.ist
 
 ## Intermediate documents:
 *.dvi
@@ -134,6 +135,7 @@ sympy-plots-for-*.tex/
 *.pdf
 
 res/listOfSections.tex
+res/listOfSections.aux
 
 Tesi.zip
 bin/*
