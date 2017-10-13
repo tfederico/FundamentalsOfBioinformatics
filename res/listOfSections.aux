@@ -14,6 +14,8 @@
 \mph@setcol{ii:xii}{\mph@nr}
 \mph@setcol{ii:xiii}{\mph@nr}
 \mph@setcol{ii:xiv}{\mph@nr}
+\mph@setcol{ii:xv}{\mph@nr}
+\mph@setcol{ii:xvi}{\mph@nr}
 \@writefile{toc}{\contentsline {part}{I\hspace  {1em}Lectures}{1}{part.1}}
 \mph@setcol{ii:1}{\mph@nr}
 \mph@setcol{ii:2}{\mph@nr}
@@ -87,555 +89,632 @@
 \@writefile{toc}{\contentsline {subsubsection}{Homology searching}{15}{section*.29}}
 \mph@setcol{ii:15}{\mph@nr}
 \mph@setcol{ii:16}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Data}{17}{chapter.3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}(Local) Alignment and Homology Searching}{17}{chapter.3}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}todo}{17}{section.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Use case: RNAseq}{17}{subsection.3.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Use case: tumor mutations}{17}{subsection.3.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Reasons to need data}{17}{subsection.3.1.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Data in the life science}{17}{section.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Data publicly available}{17}{subsection.3.2.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Divergent evolution}{17}{section.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Reconstructing divergent evolution}{17}{subsection.3.1.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Evolution and 3D protein structural information}{17}{section.3.2}}
 \mph@setcol{ii:17}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}How to represent knowledge}{18}{subsection.3.2.2}}
-\@writefile{toc}{\contentsline {subsubsection}{Data curation}{18}{section*.30}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Collection of Databases \& Integration}{18}{subsection.3.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Gene Ontology (GO)}{18}{subsection.3.2.4}}
-\@writefile{toc}{\contentsline {subsubsection}{What is an ontology?}{18}{section*.31}}
-\@writefile{toc}{\contentsline {subsubsection}{Applying GO}{18}{section*.32}}
-\@writefile{toc}{\contentsline {paragraph}{Evidence Codes Ontology}{18}{section*.33}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.5}Provenance in Bioinformatics}{18}{subsection.3.2.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.6}Pfam database}{18}{subsection.3.2.6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Differences in divergent evolution\relax }}{18}{figure.caption.30}}
+\newlabel{Differences in divergent evolution}{{3.1}{18}{Differences in divergent evolution\relax }{figure.caption.30}{}}
 \mph@setcol{ii:18}{\mph@nr}
-\@writefile{toc}{\contentsline {subsubsection}{Clans in Pfam}{19}{section*.34}}
-\@writefile{toc}{\contentsline {subsubsection}{Pfam A vs Pfam B}{19}{section*.35}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.7}Structural Classification of Proteins (SCOP)}{19}{subsection.3.2.7}}
-\@writefile{toc}{\contentsline {subsubsection}{Structural Classification}{19}{section*.36}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.8}STRING}{19}{subsection.3.2.8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Example of pairwise alignment\relax }}{19}{figure.caption.31}}
+\newlabel{Example of pairwise alignment}{{3.2}{19}{Example of pairwise alignment\relax }{figure.caption.31}{}}
 \mph@setcol{ii:19}{\mph@nr}
 \mph@setcol{ii:20}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Benchmarking}{21}{chapter.4}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Data}{21}{chapter.4}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Main question}{21}{section.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}The confusion table}{21}{subsection.4.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Tradeoff}{21}{subsection.4.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Measures}{21}{subsection.4.1.3}}
-\@writefile{toc}{\contentsline {subsubsection}{Sensitivity (Recall)}{21}{section*.37}}
-\@writefile{toc}{\contentsline {subsubsection}{Specificity}{21}{section*.38}}
-\@writefile{toc}{\contentsline {subsubsection}{Precision}{21}{section*.39}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}todo}{21}{section.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Use case: RNAseq}{21}{subsection.4.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Use case: tumor mutations}{21}{subsection.4.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Reasons to need data}{21}{subsection.4.1.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Data in the life science}{21}{section.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Data publicly available}{21}{subsection.4.2.1}}
 \mph@setcol{ii:21}{\mph@nr}
-\@writefile{toc}{\contentsline {subsubsection}{Accuracy}{22}{section*.40}}
-\@writefile{toc}{\contentsline {subsubsection}{Matthews correlation coefficient}{22}{section*.41}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.4}Different plots}{22}{subsection.4.1.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Paper questions}{22}{section.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}How to represent knowledge}{22}{subsection.4.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{Data curation}{22}{section*.32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Collection of Databases \& Integration}{22}{subsection.4.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}Gene Ontology (GO)}{22}{subsection.4.2.4}}
+\@writefile{toc}{\contentsline {subsubsection}{What is an ontology?}{22}{section*.33}}
+\@writefile{toc}{\contentsline {subsubsection}{Applying GO}{22}{section*.34}}
+\@writefile{toc}{\contentsline {paragraph}{Evidence Codes Ontology}{22}{section*.35}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.5}Provenance in Bioinformatics}{22}{subsection.4.2.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.6}Pfam database}{22}{subsection.4.2.6}}
 \mph@setcol{ii:22}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Protein structure}{23}{chapter.5}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {subsubsection}{Clans in Pfam}{23}{section*.36}}
+\@writefile{toc}{\contentsline {subsubsection}{Pfam A vs Pfam B}{23}{section*.37}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.7}Structural Classification of Proteins (SCOP)}{23}{subsection.4.2.7}}
+\@writefile{toc}{\contentsline {subsubsection}{Structural Classification}{23}{section*.38}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.8}STRING}{23}{subsection.4.2.8}}
 \mph@setcol{ii:23}{\mph@nr}
 \mph@setcol{ii:24}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Sequencing}{25}{chapter.6}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Benchmarking}{25}{chapter.5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Main question}{25}{section.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}The confusion table}{25}{subsection.5.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Tradeoff}{25}{subsection.5.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}Measures}{25}{subsection.5.1.3}}
+\@writefile{toc}{\contentsline {subsubsection}{Sensitivity (Recall)}{25}{section*.39}}
+\@writefile{toc}{\contentsline {subsubsection}{Specificity}{25}{section*.40}}
+\@writefile{toc}{\contentsline {subsubsection}{Precision}{25}{section*.41}}
 \mph@setcol{ii:25}{\mph@nr}
+\@writefile{toc}{\contentsline {subsubsection}{Accuracy}{26}{section*.42}}
+\@writefile{toc}{\contentsline {subsubsection}{Matthews correlation coefficient}{26}{section*.43}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.4}Different plots}{26}{subsection.5.1.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Paper questions}{26}{section.5.2}}
 \mph@setcol{ii:26}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Sequence entropy and harmony}{27}{chapter.7}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Protein structure}{27}{chapter.6}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {7.1}Conservation}{27}{section.7.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Identification of functional sites}{27}{section.7.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.1}Conditional entropy}{27}{subsection.7.2.1}}
 \mph@setcol{ii:27}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.2}Co-occurrence in practice}{28}{subsection.7.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.3}Relative Entropy in Sequence Analysis}{28}{subsection.7.2.3}}
 \mph@setcol{ii:28}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Scientific writing}{29}{chapter.8}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Sequencing}{29}{chapter.7}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \mph@setcol{ii:29}{\mph@nr}
 \mph@setcol{ii:30}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Advanced research topics}{31}{chapter.9}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Sequence entropy and harmony}{31}{chapter.8}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Conservation}{31}{section.8.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Identification of functional sites}{31}{section.8.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}Conditional entropy}{31}{subsection.8.2.1}}
 \mph@setcol{ii:31}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.2}Co-occurrence in practice}{32}{subsection.8.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.3}Relative Entropy in Sequence Analysis}{32}{subsection.8.2.3}}
 \mph@setcol{ii:32}{\mph@nr}
-\@writefile{toc}{\contentsline {part}{II\hspace  {1em}Biology classes}{33}{part.2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Scientific writing}{33}{chapter.9}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
 \mph@setcol{ii:33}{\mph@nr}
 \mph@setcol{ii:34}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {10}Introduction to Cells}{35}{chapter.10}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {10}Advanced research topics}{35}{chapter.10}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {10.1}Unity and Diversity of Cells}{35}{section.10.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.1.1}Cells vary enormously in appearance and function}{35}{subsection.10.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.1.2}Living Cells all have a similar Basic Chemistry}{35}{subsection.10.1.2}}
 \mph@setcol{ii:35}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.1.3}All present-day Cells have apparently evolved from the same ancestor}{36}{subsection.10.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.1.4}Genes provide the instructions for Cellular form, function, and Complex Behavior}{36}{subsection.10.1.4}}
 \mph@setcol{ii:36}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {10.2}Cells under the microscope}{37}{section.10.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.2.1}The invention of the light Microscope led to the discovery of Cells}{37}{subsection.10.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.2.2}Cells, organelles, and even Molecules Can Be seen Under the Microscope}{37}{subsection.10.2.2}}
+\@writefile{toc}{\contentsline {part}{II\hspace  {1em}Biology classes}{37}{part.2}}
 \mph@setcol{ii:37}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {10.3}The Procaryotic Cell}{38}{section.10.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.3.1}Procaryotes are the Most diverse of Cells}{38}{subsection.10.3.1}}
 \mph@setcol{ii:38}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.3.2}The World of procaryotes is divided into two domains: Bacteria and archaea}{39}{subsection.10.3.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {10.4}The Eucaryotic Cell}{39}{section.10.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.4.1}The nucleus is the information store of the Cell}{39}{subsection.10.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.4.2}Mitochondria generate Usable energy from food to power the Cell}{39}{subsection.10.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.4.3}Chloroplasts Capture energy from sunlight}{39}{subsection.10.4.3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {11}Introduction to Cells}{39}{chapter.11}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {11.1}Unity and Diversity of Cells}{39}{section.11.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.1}Cells vary enormously in appearance and function}{39}{subsection.11.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.2}Living Cells all have a similar Basic Chemistry}{39}{subsection.11.1.2}}
 \mph@setcol{ii:39}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.4.4}Internal Membranes Create intracellular Compartments with different functions}{40}{subsection.10.4.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.3}All present-day Cells have apparently evolved from the same ancestor}{40}{subsection.11.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.4}Genes provide the instructions for Cellular form, function, and Complex Behavior}{40}{subsection.11.1.4}}
 \mph@setcol{ii:40}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.4.5}The Cytosol is a Concentrated aqueous gel of large and small Molecules}{41}{subsection.10.4.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.4.6}The Cytoskeleton is responsible for directed Cell Movements}{41}{subsection.10.4.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.4.7}The cytoplasm is Far from Static}{41}{subsection.10.4.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.2}Cells under the microscope}{41}{section.11.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.2.1}The invention of the light Microscope led to the discovery of Cells}{41}{subsection.11.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.2.2}Cells, organelles, and even Molecules Can Be seen Under the Microscope}{41}{subsection.11.2.2}}
 \mph@setcol{ii:41}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {10.5}Model organisms}{42}{section.10.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.5.1}Comparing genome sequences reveals life\IeC {\textquoteright }s Common heritage}{42}{subsection.10.5.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {10.6}Essential concepts}{42}{section.10.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.3}The Procaryotic Cell}{42}{section.11.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.3.1}Procaryotes are the Most diverse of Cells}{42}{subsection.11.3.1}}
 \mph@setcol{ii:42}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.3.2}The World of procaryotes is divided into two domains: Bacteria and archaea}{43}{subsection.11.3.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.4}The Eucaryotic Cell}{43}{section.11.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.4.1}The nucleus is the information store of the Cell}{43}{subsection.11.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.4.2}Mitochondria generate Usable energy from food to power the Cell}{43}{subsection.11.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.4.3}Chloroplasts Capture energy from sunlight}{43}{subsection.11.4.3}}
 \mph@setcol{ii:43}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.4.4}Internal Membranes Create intracellular Compartments with different functions}{44}{subsection.11.4.4}}
 \mph@setcol{ii:44}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {11}Chemical Components of Cells}{45}{chapter.11}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {11.1}Chemical Bonds}{45}{section.11.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.1}Cells are made of relatively Few Types of atoms}{45}{subsection.11.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.4.5}The Cytosol is a Concentrated aqueous gel of large and small Molecules}{45}{subsection.11.4.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.4.6}The Cytoskeleton is responsible for directed Cell Movements}{45}{subsection.11.4.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.4.7}The cytoplasm is Far from Static}{45}{subsection.11.4.7}}
 \mph@setcol{ii:45}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.2}The outermost electrons determine how atoms interact}{46}{subsection.11.1.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.5}Model organisms}{46}{section.11.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.5.1}Comparing genome sequences reveals life\IeC {\textquoteright }s Common heritage}{46}{subsection.11.5.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.6}Essential concepts}{46}{section.11.6}}
 \mph@setcol{ii:46}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.3}Ionic Bonds Form by the Gain and loss of electrons}{47}{subsection.11.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.4}Covalent Bonds Form by the sharing of electrons}{47}{subsection.11.1.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.5}Covalent Bonds Vary in strength}{47}{subsection.11.1.5}}
 \mph@setcol{ii:47}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.6}There are different Types of Covalent Bonds}{48}{subsection.11.1.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.7}Electrostatic attractions help Bring molecules Together in Cells}{48}{subsection.11.1.7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.8}Water is held Together by hydrogen Bonds}{48}{subsection.11.1.8}}
 \mph@setcol{ii:48}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.9}Some Polar molecules Form acids and Bases in Water}{49}{subsection.11.1.9}}
-\@writefile{toc}{\contentsline {section}{\numberline {11.2}Molecules in Cells}{49}{section.11.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.2.1}A Cell is Formed from Carbon Compounds}{49}{subsection.11.2.1}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {12}Chemical Components of Cells}{49}{chapter.12}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {12.1}Chemical Bonds}{49}{section.12.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.1.1}Cells are made of relatively Few Types of atoms}{49}{subsection.12.1.1}}
 \mph@setcol{ii:49}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.2.2}Cells Contain Four major Families of small organic molecules}{50}{subsection.11.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.2.3}Sugars are energy sources for Cells and subunits of Polysaccharides}{50}{subsection.11.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.1.2}The outermost electrons determine how atoms interact}{50}{subsection.12.1.2}}
 \mph@setcol{ii:50}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.2.4}Fatty acids are Components of Cell membranes}{51}{subsection.11.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.1.3}Ionic Bonds Form by the Gain and loss of electrons}{51}{subsection.12.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.1.4}Covalent Bonds Form by the sharing of electrons}{51}{subsection.12.1.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.1.5}Covalent Bonds Vary in strength}{51}{subsection.12.1.5}}
 \mph@setcol{ii:51}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.2.5}Amino acids are the subunits of Proteins}{52}{subsection.11.2.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.2.6}Nucleotides are the subunits of DNA and RNA}{52}{subsection.11.2.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.1.6}There are different Types of Covalent Bonds}{52}{subsection.12.1.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.1.7}Electrostatic attractions help Bring molecules Together in Cells}{52}{subsection.12.1.7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.1.8}Water is held Together by hydrogen Bonds}{52}{subsection.12.1.8}}
 \mph@setcol{ii:52}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {11.3}Macromolecules in Cells}{53}{section.11.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.3.1}Macromolecules Contain a specific sequence of subunits}{53}{subsection.11.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.1.9}Some Polar molecules Form acids and Bases in Water}{53}{subsection.12.1.9}}
+\@writefile{toc}{\contentsline {section}{\numberline {12.2}Molecules in Cells}{53}{section.12.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.1}A Cell is Formed from Carbon Compounds}{53}{subsection.12.2.1}}
 \mph@setcol{ii:53}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.3.2}Noncovalent Bonds specify the Precise shape of a macromolecule}{54}{subsection.11.3.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {11.4}Essential concepts}{54}{section.11.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.2}Cells Contain Four major Families of small organic molecules}{54}{subsection.12.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.3}Sugars are energy sources for Cells and subunits of Polysaccharides}{54}{subsection.12.2.3}}
 \mph@setcol{ii:54}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.4}Fatty acids are Components of Cell membranes}{55}{subsection.12.2.4}}
 \mph@setcol{ii:55}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.5}Amino acids are the subunits of Proteins}{56}{subsection.12.2.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.6}Nucleotides are the subunits of DNA and RNA}{56}{subsection.12.2.6}}
 \mph@setcol{ii:56}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {12}Energy, Catalysis and Biosynthesis}{57}{chapter.12}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {12.1}The Use of energy by Cells}{57}{section.12.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.1.1}Biological order is Made Possible by the release of heat energy from Cells}{57}{subsection.12.1.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {12.3}Macromolecules in Cells}{57}{section.12.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.3.1}Macromolecules Contain a specific sequence of subunits}{57}{subsection.12.3.1}}
 \mph@setcol{ii:57}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.1.2}Photosynthetic organisms Use sunlight to synthesize organic Molecules}{58}{subsection.12.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.1.3}Cells obtain energy by the oxidation of organic Molecules}{58}{subsection.12.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.1.4}Oxidation and reduction involve electron Transfers}{58}{subsection.12.1.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.3.2}Noncovalent Bonds specify the Precise shape of a macromolecule}{58}{subsection.12.3.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {12.4}Essential concepts}{58}{section.12.4}}
 \mph@setcol{ii:58}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {12.2}Free energy and Catalysis}{59}{section.12.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.1}Enzymes lower the energy barriers That Prevent Chemical reactions from occurring}{59}{subsection.12.2.1}}
 \mph@setcol{ii:59}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.2}The free-energy Change for a reaction determines whether it can occur}{60}{subsection.12.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.3}The Concentration of reactants influences the free-energy Change and a reaction\IeC {\textquoteright }s direction}{60}{subsection.12.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.4}The standard free-energy Change Makes it Possible to Compare the energetics of different reactions}{60}{subsection.12.2.4}}
 \mph@setcol{ii:60}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.5}Cells exist in a state of Chemical disequilibrium}{61}{subsection.12.2.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.6}The equilibrium Constant is directly Proportional to $\Delta G^{o}$}{61}{subsection.12.2.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.7}The equilibrium Constant indicates the strength of Molecular interactions}{61}{subsection.12.2.7}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {13}Energy, Catalysis and Biosynthesis}{61}{chapter.13}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {13.1}The Use of energy by Cells}{61}{section.13.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.1}Biological order is Made Possible by the release of heat energy from Cells}{61}{subsection.13.1.1}}
 \mph@setcol{ii:61}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.8}Rapid diffusion allows enzymes to find Their substrates}{62}{subsection.12.2.8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.9}$V_{max}$ and $K_{M}$ Measure enzyme Performance}{62}{subsection.12.2.9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.2}Photosynthetic organisms Use sunlight to synthesize organic Molecules}{62}{subsection.13.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.3}Cells obtain energy by the oxidation of organic Molecules}{62}{subsection.13.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.4}Oxidation and reduction involve electron Transfers}{62}{subsection.13.1.4}}
 \mph@setcol{ii:62}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {12.3}Activated Carrier Molecules and Biosynthesis}{63}{section.12.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.3.1}The formation of an activated Carrier is Coupled to an energetically favorable reaction}{63}{subsection.12.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.3.2}ATP is the Most Widely Used activated Carrier Molecule}{63}{subsection.12.3.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {13.2}Free energy and Catalysis}{63}{section.13.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.1}Enzymes lower the energy barriers That Prevent Chemical reactions from occurring}{63}{subsection.13.2.1}}
 \mph@setcol{ii:63}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.3.3}Energy stored in ATP is often harnessed to Join Two Molecules Together}{64}{subsection.12.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.3.4}NADH and NADPH are important electron Carriers}{64}{subsection.12.3.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.3.5}Cells Make Use of Many other activated Carrier Molecules}{64}{subsection.12.3.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.2}The free-energy Change for a reaction determines whether it can occur}{64}{subsection.13.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.3}The Concentration of reactants influences the free-energy Change and a reaction\IeC {\textquoteright }s direction}{64}{subsection.13.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.4}The standard free-energy Change Makes it Possible to Compare the energetics of different reactions}{64}{subsection.13.2.4}}
 \mph@setcol{ii:64}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {12.4}Essential concepts}{65}{section.12.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.5}Cells exist in a state of Chemical disequilibrium}{65}{subsection.13.2.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.6}The equilibrium Constant is directly Proportional to $\Delta G^{o}$}{65}{subsection.13.2.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.7}The equilibrium Constant indicates the strength of Molecular interactions}{65}{subsection.13.2.7}}
 \mph@setcol{ii:65}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.8}Rapid diffusion allows enzymes to find Their substrates}{66}{subsection.13.2.8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.9}$V_{max}$ and $K_{M}$ Measure enzyme Performance}{66}{subsection.13.2.9}}
 \mph@setcol{ii:66}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {13}Protein Structure and Function}{67}{chapter.13}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {13.1}The Shape and Structure of proteins}{67}{section.13.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.1}The Shape of a protein is Specified by its amino acid Sequence}{67}{subsection.13.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.2}Proteins fold into a conformation of lowest energy}{67}{subsection.13.1.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {13.3}Activated Carrier Molecules and Biosynthesis}{67}{section.13.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.3.1}The formation of an activated Carrier is Coupled to an energetically favorable reaction}{67}{subsection.13.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.3.2}ATP is the Most Widely Used activated Carrier Molecule}{67}{subsection.13.3.2}}
 \mph@setcol{ii:67}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.3}Proteins come in a wide Variety of complicated Shapes}{68}{subsection.13.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.4}The $\alpha $-helix and the $\beta $ sheet are common folding patterns}{68}{subsection.13.1.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.3.3}Energy stored in ATP is often harnessed to Join Two Molecules Together}{68}{subsection.13.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.3.4}NADH and NADPH are important electron Carriers}{68}{subsection.13.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.3.5}Cells Make Use of Many other activated Carrier Molecules}{68}{subsection.13.3.5}}
 \mph@setcol{ii:68}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.5}Helices Form Readily in Biological Structures}{69}{subsection.13.1.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.6}$\beta $ Sheets form rigid Structures at the core of Many proteins}{69}{subsection.13.1.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.7}Proteins have Several levels of organization}{69}{subsection.13.1.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {13.4}Essential concepts}{69}{section.13.4}}
 \mph@setcol{ii:69}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.8}Few of the many possible polypeptide chains will be useful}{70}{subsection.13.1.8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.9}Proteins can be classified into families}{70}{subsection.13.1.9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.10}Large protein Molecules often contain More Than one polypeptide chain}{70}{subsection.13.1.10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.11}Proteins can assemble into Filaments, Sheets, or Spheres}{70}{subsection.13.1.11}}
 \mph@setcol{ii:70}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.12}Some Types of proteins have elongated fibrous Shapes}{71}{subsection.13.1.12}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.1.13}Extracellular proteins are often Stabilized by covalent cross-linkages}{71}{subsection.13.1.13}}
-\@writefile{toc}{\contentsline {section}{\numberline {13.2}How proteins work}{71}{section.13.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.1}All proteins bind to other molecules}{71}{subsection.13.2.1}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {14}Protein Structure and Function}{71}{chapter.14}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {14.1}The Shape and Structure of proteins}{71}{section.14.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.1}The Shape of a protein is Specified by its amino acid Sequence}{71}{subsection.14.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.2}Proteins fold into a conformation of lowest energy}{71}{subsection.14.1.2}}
 \mph@setcol{ii:71}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.2}The Binding Sites of antibodies are especially Versatile}{72}{subsection.13.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.3}Enzymes are powerful and highly Specific catalysts}{72}{subsection.13.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.3}Proteins come in a wide Variety of complicated Shapes}{72}{subsection.14.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.4}The $\alpha $-helix and the $\beta $ sheet are common folding patterns}{72}{subsection.14.1.4}}
 \mph@setcol{ii:72}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.4}Lysozyme illustrates how an enzyme works}{73}{subsection.13.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.5}Helices Form Readily in Biological Structures}{73}{subsection.14.1.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.6}$\beta $ Sheets form rigid Structures at the core of Many proteins}{73}{subsection.14.1.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.7}Proteins have Several levels of organization}{73}{subsection.14.1.7}}
 \mph@setcol{ii:73}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.5}Most drugs inhibit enzymes}{74}{subsection.13.2.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.6}Tightly Bound Small Molecules add extra functions to proteins}{74}{subsection.13.2.6}}
-\@writefile{toc}{\contentsline {section}{\numberline {13.3}How proteins are controlled}{74}{section.13.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.3.1}The catalytic activities of enzymes are often regulated by other Molecules}{74}{subsection.13.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.8}Few of the many possible polypeptide chains will be useful}{74}{subsection.14.1.8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.9}Proteins can be classified into families}{74}{subsection.14.1.9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.10}Large protein Molecules often contain More Than one polypeptide chain}{74}{subsection.14.1.10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.11}Proteins can assemble into Filaments, Sheets, or Spheres}{74}{subsection.14.1.11}}
 \mph@setcol{ii:74}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.3.2}Allosteric enzymes have Binding Sites That influence one another}{75}{subsection.13.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.3.3}Phosphorylation can control protein activity by Triggering a conformational change}{75}{subsection.13.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.12}Some Types of proteins have elongated fibrous Shapes}{75}{subsection.14.1.12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.13}Extracellular proteins are often Stabilized by covalent cross-linkages}{75}{subsection.14.1.13}}
+\@writefile{toc}{\contentsline {section}{\numberline {14.2}How proteins work}{75}{section.14.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.2.1}All proteins bind to other molecules}{75}{subsection.14.2.1}}
 \mph@setcol{ii:75}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.3.4}GTP-Binding proteins are also regulated by the cyclic Gain and loss of a phosphate Group}{76}{subsection.13.3.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.3.5}Nucleotide hydrolysis allows Motor proteins to produce large Movements in cells}{76}{subsection.13.3.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.3.6}Proteins often form large complexes That function as protein Machines}{76}{subsection.13.3.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.2.2}The Binding Sites of antibodies are especially Versatile}{76}{subsection.14.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.2.3}Enzymes are powerful and highly Specific catalysts}{76}{subsection.14.2.3}}
 \mph@setcol{ii:76}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.3.7}Covalent Modification controls the location and assembly of protein Machines}{77}{subsection.13.3.7}}
-\@writefile{toc}{\contentsline {section}{\numberline {13.4}Essential concepts}{77}{section.13.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.2.4}Lysozyme illustrates how an enzyme works}{77}{subsection.14.2.4}}
 \mph@setcol{ii:77}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.2.5}Most drugs inhibit enzymes}{78}{subsection.14.2.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.2.6}Tightly Bound Small Molecules add extra functions to proteins}{78}{subsection.14.2.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {14.3}How proteins are controlled}{78}{section.14.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.3.1}The catalytic activities of enzymes are often regulated by other Molecules}{78}{subsection.14.3.1}}
 \mph@setcol{ii:78}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {14}DNA and Chromosomes}{79}{chapter.14}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {14.1}The structure and Function of DNA}{79}{section.14.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.1}A DNA molecule consists of Two complementary chains of nucleotides}{79}{subsection.14.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.3.2}Allosteric enzymes have Binding Sites That influence one another}{79}{subsection.14.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.3.3}Phosphorylation can control protein activity by Triggering a conformational change}{79}{subsection.14.3.3}}
 \mph@setcol{ii:79}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {14.1.2}The Structure of DNA Provides a mechanism for heredity}{80}{subsection.14.1.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {14.2}The structure of eucaryotic chromosomes}{80}{section.14.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {14.2.1}Eucaryotic DNA is Packaged into multiple chromosomes}{80}{subsection.14.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.3.4}GTP-Binding proteins are also regulated by the cyclic Gain and loss of a phosphate Group}{80}{subsection.14.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.3.5}Nucleotide hydrolysis allows Motor proteins to produce large Movements in cells}{80}{subsection.14.3.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.3.6}Proteins often form large complexes That function as protein Machines}{80}{subsection.14.3.6}}
 \mph@setcol{ii:80}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {14.2.2}Chromosomes contain long Strings of genes}{81}{subsection.14.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {14.2.3}Chromosomes exist in different States Throughout the life of a cell}{81}{subsection.14.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.3.7}Covalent Modification controls the location and assembly of protein Machines}{81}{subsection.14.3.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {14.4}Essential concepts}{81}{section.14.4}}
 \mph@setcol{ii:81}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {14.2.4}Interphase chromosomes are organized Within the nucleus}{82}{subsection.14.2.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {14.2.5}Nucleosomes are the Basic units of eucaryotic chromosome Structure}{82}{subsection.14.2.5}}
 \mph@setcol{ii:82}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {14.2.6}Chromosome Packing occurs on multiple levels}{83}{subsection.14.2.6}}
-\@writefile{toc}{\contentsline {section}{\numberline {14.3}The regulation of chromosome structure}{83}{section.14.3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {15}DNA and Chromosomes}{83}{chapter.15}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {15.1}The structure and Function of DNA}{83}{section.15.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.1.1}A DNA molecule consists of Two complementary chains of nucleotides}{83}{subsection.15.1.1}}
 \mph@setcol{ii:83}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {14.3.1}Changes in nucleosome Structure allow access to DNA}{84}{subsection.14.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {14.3.2}Interphase chromosomes contain Both condensed and more extended Forms of chromatin}{84}{subsection.14.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.1.2}The Structure of DNA Provides a mechanism for heredity}{84}{subsection.15.1.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {15.2}The structure of eucaryotic chromosomes}{84}{section.15.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.2.1}Eucaryotic DNA is Packaged into multiple chromosomes}{84}{subsection.15.2.1}}
 \mph@setcol{ii:84}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {14.3.3}Changes in chromatin Structure can Be inherited}{85}{subsection.14.3.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {14.4}Essential concepts}{85}{section.14.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.2.2}Chromosomes contain long Strings of genes}{85}{subsection.15.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.2.3}Chromosomes exist in different States Throughout the life of a cell}{85}{subsection.15.2.3}}
 \mph@setcol{ii:85}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.2.4}Interphase chromosomes are organized Within the nucleus}{86}{subsection.15.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.2.5}Nucleosomes are the Basic units of eucaryotic chromosome Structure}{86}{subsection.15.2.5}}
 \mph@setcol{ii:86}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {15}DNA Replication, Repair and Recombination}{87}{chapter.15}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {15.1}DNA replication}{87}{section.15.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.1.1}Base-Pairing Enables DNA Replication}{87}{subsection.15.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.1.2}DNA Synthesis Begins at Replication Origins}{87}{subsection.15.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.2.6}Chromosome Packing occurs on multiple levels}{87}{subsection.15.2.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {15.3}The regulation of chromosome structure}{87}{section.15.3}}
 \mph@setcol{ii:87}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.1.3}New DNA Synthesis Occurs at Replication Forks}{88}{subsection.15.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.1.4}The Replication Fork Is asymmetrical}{88}{subsection.15.1.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.3.1}Changes in nucleosome Structure allow access to DNA}{88}{subsection.15.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.3.2}Interphase chromosomes contain Both condensed and more extended Forms of chromatin}{88}{subsection.15.3.2}}
 \mph@setcol{ii:88}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.1.5}DNA Polymerase Is self-correcting}{89}{subsection.15.1.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.1.6}Short Lengths of RNA act as Primers for DNA Synthesis}{89}{subsection.15.1.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.3.3}Changes in chromatin Structure can Be inherited}{89}{subsection.15.3.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {15.4}Essential concepts}{89}{section.15.4}}
 \mph@setcol{ii:89}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.1.7}Proteins at a Replication Fork Cooperate to Form a Replication Machine}{90}{subsection.15.1.7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.1.8}Telomerase Replicates the Ends of Eucaryotic Chromosomes}{90}{subsection.15.1.8}}
 \mph@setcol{ii:90}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {15.2}DNA repair}{91}{section.15.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.2.1}Mutations Can Have Severe Consequences for a Cell or Organism}{91}{subsection.15.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.2.2}A DNA Mismatch Repair System Removes Replication Errors That Escape the Replication Machine}{91}{subsection.15.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.2.3}DNA Is Continually Suffering damage in Cells}{91}{subsection.15.2.3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {16}DNA Replication, Repair and Recombination}{91}{chapter.16}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {16.1}DNA replication}{91}{section.16.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.1}Base-Pairing Enables DNA Replication}{91}{subsection.16.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.2}DNA Synthesis Begins at Replication Origins}{91}{subsection.16.1.2}}
 \mph@setcol{ii:91}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.2.4}The Stability of Genes depends on DNA Repair}{92}{subsection.15.2.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {15.3}Homologous recombination}{92}{section.15.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.3}New DNA Synthesis Occurs at Replication Forks}{92}{subsection.16.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.4}The Replication Fork Is asymmetrical}{92}{subsection.16.1.4}}
 \mph@setcol{ii:92}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.3.1}Homologous Recombination Requires Extensive Regions of Sequence Similarity}{93}{subsection.15.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.3.2}Homologous Recombination Can Flawlessly Repair DNA double-strand Breaks}{93}{subsection.15.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.5}DNA Polymerase Is self-correcting}{93}{subsection.16.1.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.6}Short Lengths of RNA act as Primers for DNA Synthesis}{93}{subsection.16.1.6}}
 \mph@setcol{ii:93}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.3.3}Homologous Recombination Exchanges Genetic Information during Meiosis}{94}{subsection.15.3.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {15.4}Mobile genetic elements and viruses}{94}{section.15.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.4.1}Mobile Genetic Elements Encode the Components They need for Movement}{94}{subsection.15.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.4.2}The Human Genome Contains Two Major Families of Transposable Sequences}{94}{subsection.15.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.7}Proteins at a Replication Fork Cooperate to Form a Replication Machine}{94}{subsection.16.1.7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.8}Telomerase Replicates the Ends of Eucaryotic Chromosomes}{94}{subsection.16.1.8}}
 \mph@setcol{ii:94}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.4.3}Viruses are Fully Mobile Genetic Elements That Can Escape from Cells}{95}{subsection.15.4.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.4.4}Retroviruses Reverse the normal Flow of Genetic Information}{95}{subsection.15.4.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {16.2}DNA repair}{95}{section.16.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.1}Mutations Can Have Severe Consequences for a Cell or Organism}{95}{subsection.16.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.2}A DNA Mismatch Repair System Removes Replication Errors That Escape the Replication Machine}{95}{subsection.16.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.3}DNA Is Continually Suffering damage in Cells}{95}{subsection.16.2.3}}
 \mph@setcol{ii:95}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {15.5}Essential concepts}{96}{section.15.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.4}The Stability of Genes depends on DNA Repair}{96}{subsection.16.2.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {16.3}Homologous recombination}{96}{section.16.3}}
 \mph@setcol{ii:96}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.3.1}Homologous Recombination Requires Extensive Regions of Sequence Similarity}{97}{subsection.16.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.3.2}Homologous Recombination Can Flawlessly Repair DNA double-strand Breaks}{97}{subsection.16.3.2}}
 \mph@setcol{ii:97}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.3.3}Homologous Recombination Exchanges Genetic Information during Meiosis}{98}{subsection.16.3.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {16.4}Mobile genetic elements and viruses}{98}{section.16.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.4.1}Mobile Genetic Elements Encode the Components They need for Movement}{98}{subsection.16.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.4.2}The Human Genome Contains Two Major Families of Transposable Sequences}{98}{subsection.16.4.2}}
 \mph@setcol{ii:98}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {16}From DNA to Protein: How Cells Read the Genome}{99}{chapter.16}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {16.1}From DNA to RNA}{99}{section.16.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.1}Portions of DNA sequence Are Transcribed into RNA}{99}{subsection.16.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.4.3}Viruses are Fully Mobile Genetic Elements That Can Escape from Cells}{99}{subsection.16.4.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.4.4}Retroviruses Reverse the normal Flow of Genetic Information}{99}{subsection.16.4.4}}
 \mph@setcol{ii:99}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.2}Transcription produces RNA Complementary to One strand of DNA}{100}{subsection.16.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.3}Several Types of RNA Are produced in Cells}{100}{subsection.16.1.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {16.5}Essential concepts}{100}{section.16.5}}
 \mph@setcol{ii:100}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.4}Signals in DNA Tell RNA polymerase Where to start and Finish}{101}{subsection.16.1.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.5}Initiation of eucaryotic gene Transcription is a Complex process}{101}{subsection.16.1.5}}
 \mph@setcol{ii:101}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.6}Eucaryotic RNA polymerase Requires general Transcription Factors}{102}{subsection.16.1.6}}
 \mph@setcol{ii:102}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.7}Eucaryotic RNAs Are Transcribed and processed simultaneously in the Nucleus}{103}{subsection.16.1.7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.8}Eucaryotic genes Are interrupted by Noncoding sequences}{103}{subsection.16.1.8}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {17}From DNA to Protein: How Cells Read the Genome}{103}{chapter.17}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {17.1}From DNA to RNA}{103}{section.17.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.1}Portions of DNA sequence Are Transcribed into RNA}{103}{subsection.17.1.1}}
 \mph@setcol{ii:103}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.9}Introns Are Removed by RNA splicing}{104}{subsection.16.1.9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.10}Mature eucaryotic mRNAs Are selectively exported from the Nucleus}{104}{subsection.16.1.10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.2}Transcription produces RNA Complementary to One strand of DNA}{104}{subsection.17.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.3}Several Types of RNA Are produced in Cells}{104}{subsection.17.1.3}}
 \mph@setcol{ii:104}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.11}mRNA Molecules Are eventually Degraded by the Cell}{105}{subsection.16.1.11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.1.12}The earliest Cells May have had introns in Their genes}{105}{subsection.16.1.12}}
-\@writefile{toc}{\contentsline {section}{\numberline {16.2}From RNA to Protein}{105}{section.16.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.1}An mRNA sequence is Decoded in sets of Three Nucleotides}{105}{subsection.16.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.4}Signals in DNA Tell RNA polymerase Where to start and Finish}{105}{subsection.17.1.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.5}Initiation of eucaryotic gene Transcription is a Complex process}{105}{subsection.17.1.5}}
 \mph@setcol{ii:105}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.2}tRNA Molecules Match Amino Acids to Codons in mRNA}{106}{subsection.16.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.3}Specific enzymes Couple tRNAs to the Correct Amino Acid}{106}{subsection.16.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.6}Eucaryotic RNA polymerase Requires general Transcription Factors}{106}{subsection.17.1.6}}
 \mph@setcol{ii:106}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.4}The RNA Message is Decoded on Ribosomes}{107}{subsection.16.2.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.5}The Ribosome is a Ribozyme}{107}{subsection.16.2.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.6}Codons in mRNA signal Where to start and to stop protein synthesis}{107}{subsection.16.2.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.7}Eucaryotic RNAs Are Transcribed and processed simultaneously in the Nucleus}{107}{subsection.17.1.7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.8}Eucaryotic genes Are interrupted by Noncoding sequences}{107}{subsection.17.1.8}}
 \mph@setcol{ii:107}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.7}Proteins Are Made on polyribosomes}{108}{subsection.16.2.7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.8}Inhibitors of procaryotic protein synthesis Are used as Antibiotics}{108}{subsection.16.2.8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.9}Introns Are Removed by RNA splicing}{108}{subsection.17.1.9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.10}Mature eucaryotic mRNAs Are selectively exported from the Nucleus}{108}{subsection.17.1.10}}
 \mph@setcol{ii:108}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.9}Carefully Controlled protein breakdown helps Regulate the Amount of each protein in a Cell}{109}{subsection.16.2.9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.10}There Are Many steps between DNA and protein}{109}{subsection.16.2.10}}
-\@writefile{toc}{\contentsline {section}{\numberline {16.3}RNA and the origins of Life}{109}{section.16.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.11}mRNA Molecules Are eventually Degraded by the Cell}{109}{subsection.17.1.11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.12}The earliest Cells May have had introns in Their genes}{109}{subsection.17.1.12}}
+\@writefile{toc}{\contentsline {section}{\numberline {17.2}From RNA to Protein}{109}{section.17.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.1}An mRNA sequence is Decoded in sets of Three Nucleotides}{109}{subsection.17.2.1}}
 \mph@setcol{ii:109}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.3.1}Life require autocatalysis}{110}{subsection.16.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.3.2}RNA Can both store information and Catalyze Chemical Reactions}{110}{subsection.16.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.3.3}RNA is Thought to predate DNA in evolution}{110}{subsection.16.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.2}tRNA Molecules Match Amino Acids to Codons in mRNA}{110}{subsection.17.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.3}Specific enzymes Couple tRNAs to the Correct Amino Acid}{110}{subsection.17.2.3}}
 \mph@setcol{ii:110}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {16.4}Essential concepts}{111}{section.16.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.4}The RNA Message is Decoded on Ribosomes}{111}{subsection.17.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.5}The Ribosome is a Ribozyme}{111}{subsection.17.2.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.6}Codons in mRNA signal Where to start and to stop protein synthesis}{111}{subsection.17.2.6}}
 \mph@setcol{ii:111}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.7}Proteins Are Made on polyribosomes}{112}{subsection.17.2.7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.8}Inhibitors of procaryotic protein synthesis Are used as Antibiotics}{112}{subsection.17.2.8}}
 \mph@setcol{ii:112}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {17}Control of Gene Expression}{113}{chapter.17}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {17.1}An overview of gene expression}{113}{section.17.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.1}The different Cell Types of a multicellular Organism Contain the Same DNA}{113}{subsection.17.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.2}Different Cell types produce different sets of proteins}{113}{subsection.17.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.9}Carefully Controlled protein breakdown helps Regulate the Amount of each protein in a Cell}{113}{subsection.17.2.9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.10}There Are Many steps between DNA and protein}{113}{subsection.17.2.10}}
+\@writefile{toc}{\contentsline {section}{\numberline {17.3}RNA and the origins of Life}{113}{section.17.3}}
 \mph@setcol{ii:113}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.3}A Cell Can Change the Expression of Its Genes in Response to External Signals}{114}{subsection.17.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.1.4}Gene Expression Can Be Regulated at many of the Step in the Pathway from DNA to RNA to Protein}{114}{subsection.17.1.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {17.2}How transcriptional switches work}{114}{section.17.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.1}Transcription Is Controlled by Proteins Binding to Regulatory DNA Sequences}{114}{subsection.17.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.3.1}Life require autocatalysis}{114}{subsection.17.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.3.2}RNA Can both store information and Catalyze Chemical Reactions}{114}{subsection.17.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {17.3.3}RNA is Thought to predate DNA in evolution}{114}{subsection.17.3.3}}
 \mph@setcol{ii:114}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.2}Transcription Switches Allow Cells to Respond to Changes in the Environment}{115}{subsection.17.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.3}Repressors Turn Genes Off, Activators Turn Them On}{115}{subsection.17.2.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {17.4}Essential concepts}{115}{section.17.4}}
 \mph@setcol{ii:115}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.4}An Activator and a Repressor Control the Lac Operon}{116}{subsection.17.2.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.5}Eucaryotic Transcription Regulators Control Gene Expression from a distance}{116}{subsection.17.2.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.2.6}Packing of Promoter DNA into Nucleosomes Affects Initiation of Transcription}{116}{subsection.17.2.6}}
 \mph@setcol{ii:116}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {17.3}The molecular mechanisms that create specialized cell types}{117}{section.17.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.3.1}Eucaryotic Genes Are Regulated by Combinations of Proteins}{117}{subsection.17.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.3.2}The Expression of different Genes Can Be Coordinated by a Single Protein}{117}{subsection.17.3.2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {18}Control of Gene Expression}{117}{chapter.18}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {18.1}An overview of gene expression}{117}{section.18.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.1.1}The different Cell Types of a multicellular Organism Contain the Same DNA}{117}{subsection.18.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.1.2}Different Cell types produce different sets of proteins}{117}{subsection.18.1.2}}
 \mph@setcol{ii:117}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.3.3}Combinatorial Control Can Create different Cell Types}{118}{subsection.17.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.3.4}Stable Patterns of Gene Expression Can Be Transmitted to daughter Cells}{118}{subsection.17.3.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.3.5}The Formation of an Entire Organ Can Be Triggered by a Single Transcription Regulator}{118}{subsection.17.3.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.1.3}A Cell Can Change the Expression of Its Genes in Response to External Signals}{118}{subsection.18.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.1.4}Gene Expression Can Be Regulated at many of the Step in the Pathway from DNA to RNA to Protein}{118}{subsection.18.1.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {18.2}How transcriptional switches work}{118}{section.18.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.2.1}Transcription Is Controlled by Proteins Binding to Regulatory DNA Sequences}{118}{subsection.18.2.1}}
 \mph@setcol{ii:118}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {17.4}Post-transcriptional controls}{119}{section.17.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.4.1}Riboswitches Provide An Economical Solution to Gene Regulation}{119}{subsection.17.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.4.2}The untranslated Regions of mRNAs Can Control Their Translation}{119}{subsection.17.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.4.3}Small Regulatory RNAs Control the Expression of Thousands of Animal and Plant Genes}{119}{subsection.17.4.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.2.2}Transcription Switches Allow Cells to Respond to Changes in the Environment}{119}{subsection.18.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.2.3}Repressors Turn Genes Off, Activators Turn Them On}{119}{subsection.18.2.3}}
 \mph@setcol{ii:119}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.4.4}RNA Interference destroys double-Stranded Foreign RNAs}{120}{subsection.17.4.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {17.4.5}Scientists Can use RNA Interference to Turn Off Genes}{120}{subsection.17.4.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {17.5}Essential concepts}{120}{section.17.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.2.4}An Activator and a Repressor Control the Lac Operon}{120}{subsection.18.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.2.5}Eucaryotic Transcription Regulators Control Gene Expression from a distance}{120}{subsection.18.2.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.2.6}Packing of Promoter DNA into Nucleosomes Affects Initiation of Transcription}{120}{subsection.18.2.6}}
 \mph@setcol{ii:120}{\mph@nr}
+\@writefile{toc}{\contentsline {section}{\numberline {18.3}The molecular mechanisms that create specialized cell types}{121}{section.18.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.3.1}Eucaryotic Genes Are Regulated by Combinations of Proteins}{121}{subsection.18.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.3.2}The Expression of different Genes Can Be Coordinated by a Single Protein}{121}{subsection.18.3.2}}
 \mph@setcol{ii:121}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.3.3}Combinatorial Control Can Create different Cell Types}{122}{subsection.18.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.3.4}Stable Patterns of Gene Expression Can Be Transmitted to daughter Cells}{122}{subsection.18.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.3.5}The Formation of an Entire Organ Can Be Triggered by a Single Transcription Regulator}{122}{subsection.18.3.5}}
 \mph@setcol{ii:122}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {18}Membrane structure}{123}{chapter.18}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {18.1}The lipid layer}{123}{section.18.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {18.1.1}Membrane lipids Form bilayers in Water}{123}{subsection.18.1.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {18.4}Post-transcriptional controls}{123}{section.18.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.4.1}Riboswitches Provide An Economical Solution to Gene Regulation}{123}{subsection.18.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.4.2}The untranslated Regions of mRNAs Can Control Their Translation}{123}{subsection.18.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.4.3}Small Regulatory RNAs Control the Expression of Thousands of Animal and Plant Genes}{123}{subsection.18.4.3}}
 \mph@setcol{ii:123}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {18.1.2}The lipid bilayer is a two-dimensional Fluid}{124}{subsection.18.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.4.4}RNA Interference destroys double-Stranded Foreign RNAs}{124}{subsection.18.4.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {18.4.5}Scientists Can use RNA Interference to Turn Off Genes}{124}{subsection.18.4.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {18.5}Essential concepts}{124}{section.18.5}}
 \mph@setcol{ii:124}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {18.1.3}The Fluidity of a lipid bilayer depends on its Composition}{125}{subsection.18.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {18.1.4}The lipid bilayer is asymmetrical}{125}{subsection.18.1.4}}
 \mph@setcol{ii:125}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {18.1.5}Lipid asymmetry is preserved during Membrane transport}{126}{subsection.18.1.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {18.2}Membrane proteins}{126}{section.18.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {18.2.1}Membrane proteins associate with the lipid bilayer in Various Ways}{126}{subsection.18.2.1}}
 \mph@setcol{ii:126}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {18.2.2}A polypeptide Chain usually Crosses the bilayer as an $\alpha $-helix}{127}{subsection.18.2.2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {19}Membrane structure}{127}{chapter.19}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {19.1}The lipid layer}{127}{section.19.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.1.1}Membrane lipids Form bilayers in Water}{127}{subsection.19.1.1}}
 \mph@setcol{ii:127}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {18.2.3}Membrane proteins Can be Solubilized in detergents and purified}{128}{subsection.18.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {18.2.4}The Complete Structure is Known for relatively Few Membrane proteins}{128}{subsection.18.2.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {18.2.5}The plasma Membrane is reinforced by the Cell Cortex}{128}{subsection.18.2.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.1.2}The lipid bilayer is a two-dimensional Fluid}{128}{subsection.19.1.2}}
 \mph@setcol{ii:128}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {18.2.6}Cells Can restrict the Movement of Membrane proteins}{129}{subsection.18.2.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {18.2.7}FRAP}{129}{subsection.18.2.7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.1.3}The Fluidity of a lipid bilayer depends on its Composition}{129}{subsection.19.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.1.4}The lipid bilayer is asymmetrical}{129}{subsection.19.1.4}}
 \mph@setcol{ii:129}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {18.2.8}The Cell Surface is Coated with Carbohydrate}{130}{subsection.18.2.8}}
-\@writefile{toc}{\contentsline {section}{\numberline {18.3}Essential concepts}{130}{section.18.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.1.5}Lipid asymmetry is preserved during Membrane transport}{130}{subsection.19.1.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {19.2}Membrane proteins}{130}{section.19.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.1}Membrane proteins associate with the lipid bilayer in Various Ways}{130}{subsection.19.2.1}}
 \mph@setcol{ii:130}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.2}A polypeptide Chain usually Crosses the bilayer as an $\alpha $-helix}{131}{subsection.19.2.2}}
 \mph@setcol{ii:131}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.3}Membrane proteins Can be Solubilized in detergents and purified}{132}{subsection.19.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.4}The Complete Structure is Known for relatively Few Membrane proteins}{132}{subsection.19.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.5}The plasma Membrane is reinforced by the Cell Cortex}{132}{subsection.19.2.5}}
 \mph@setcol{ii:132}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {19}Membrane Transport}{133}{chapter.19}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {19.1}Princples of membrane transport}{133}{section.19.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.1.1}The Ion Concentrations Inside a Cell Are Very Different from Those Outside}{133}{subsection.19.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.6}Cells Can restrict the Movement of Membrane proteins}{133}{subsection.19.2.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.7}FRAP}{133}{subsection.19.2.7}}
 \mph@setcol{ii:133}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.1.2}Lipid Bilayers Are Impermeable to Solutes and Ions}{134}{subsection.19.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.1.3}Membrane Transport Proteins Fall into Two Classes: Transporters and Channels}{134}{subsection.19.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.8}The Cell Surface is Coated with Carbohydrate}{134}{subsection.19.2.8}}
+\@writefile{toc}{\contentsline {section}{\numberline {19.3}Essential concepts}{134}{section.19.3}}
 \mph@setcol{ii:134}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.1.4}Solutes Cross Membranes by Passive or Active Transport}{135}{subsection.19.1.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {19.2}Transporters and their functions}{135}{section.19.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.1}Concentration Gradients and Electrical Forces Drive Passive Transport}{135}{subsection.19.2.1}}
 \mph@setcol{ii:135}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.2}Active Transport Moves Solutes Against Their Electrochemical Gradients}{136}{subsection.19.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.3}Animal Cells Use the Energy of ATP Hydrolysis to Pump Out $Na^{+}$}{136}{subsection.19.2.3}}
 \mph@setcol{ii:136}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.4}The $Na^{+}$-$K^{+}$ Pump Is Driven by the Transient Addition of a Phosphate Group}{137}{subsection.19.2.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.5}The $Na^{+}$-$K^{+}$ Pump Helps Maintain the Osmotic Balance of Animal Cells}{137}{subsection.19.2.5}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {20}Membrane Transport}{137}{chapter.20}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {20.1}Princples of membrane transport}{137}{section.20.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.1.1}The Ion Concentrations Inside a Cell Are Very Different from Those Outside}{137}{subsection.20.1.1}}
 \mph@setcol{ii:137}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.6}Intracellular $Ca^{2+}$ Concentrations Are Kept Low by $Ca^{2+}$ Pumps}{138}{subsection.19.2.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.7}Coupled Transporters Exploit Gradients to Take Up Nutrients Actively}{138}{subsection.19.2.7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.1.2}Lipid Bilayers Are Impermeable to Solutes and Ions}{138}{subsection.20.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.1.3}Membrane Transport Proteins Fall into Two Classes: Transporters and Channels}{138}{subsection.20.1.3}}
 \mph@setcol{ii:138}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.2.8}$H^{+}$ Gradients Are Used to Drive Membrane Transport in Plants, Fungi, and Bacteria}{139}{subsection.19.2.8}}
-\@writefile{toc}{\contentsline {section}{\numberline {19.3}Ion channels and the membrane potential}{139}{section.19.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.1.4}Solutes Cross Membranes by Passive or Active Transport}{139}{subsection.20.1.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {20.2}Transporters and their functions}{139}{section.20.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.2.1}Concentration Gradients and Electrical Forces Drive Passive Transport}{139}{subsection.20.2.1}}
 \mph@setcol{ii:139}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.3.1}Ion Channels Are Ion-selective and Gated}{140}{subsection.19.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.3.2}Ion Channels Randomly Snap Between Open and Closed States}{140}{subsection.19.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.2.2}Active Transport Moves Solutes Against Their Electrochemical Gradients}{140}{subsection.20.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.2.3}Animal Cells Use the Energy of ATP Hydrolysis to Pump Out $Na^{+}$}{140}{subsection.20.2.3}}
 \mph@setcol{ii:140}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.3.3}Different Types of Stimuli Influence the Opening and Closing of Ion Channels}{141}{subsection.19.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.3.4}Voltage-gated Ion Channels Respond to the Membrane Potential}{141}{subsection.19.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.2.4}The $Na^{+}$-$K^{+}$ Pump Is Driven by the Transient Addition of a Phosphate Group}{141}{subsection.20.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.2.5}The $Na^{+}$-$K^{+}$ Pump Helps Maintain the Osmotic Balance of Animal Cells}{141}{subsection.20.2.5}}
 \mph@setcol{ii:141}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.3.5}Membrane Potential Is Governed by Membrane Permeability to Specific Ions}{142}{subsection.19.3.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {19.4}Ion channels and signaling in nerve cells}{142}{section.19.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.2.6}Intracellular $Ca^{2+}$ Concentrations Are Kept Low by $Ca^{2+}$ Pumps}{142}{subsection.20.2.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.2.7}Coupled Transporters Exploit Gradients to Take Up Nutrients Actively}{142}{subsection.20.2.7}}
 \mph@setcol{ii:142}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.4.1}Action Potentials Provide for Rapid Long-Distance Communication}{143}{subsection.19.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.4.2}Action Potentials Are Usually Mediated by Voltage-gated $Na^{+}$ Channels}{143}{subsection.19.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.2.8}$H^{+}$ Gradients Are Used to Drive Membrane Transport in Plants, Fungi, and Bacteria}{143}{subsection.20.2.8}}
+\@writefile{toc}{\contentsline {section}{\numberline {20.3}Ion channels and the membrane potential}{143}{section.20.3}}
 \mph@setcol{ii:143}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.4.3}Voltage-gated $Ca^{2+}$ Channels Convert Electrical Signals into Chemical Signals at Nerve Terminals}{144}{subsection.19.4.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.4.4}Transmitter-gated Channels in Target Cells Convert Chemical Signals Back into Electrical Signals}{144}{subsection.19.4.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.3.1}Ion Channels Are Ion-selective and Gated}{144}{subsection.20.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.3.2}Ion Channels Randomly Snap Between Open and Closed States}{144}{subsection.20.3.2}}
 \mph@setcol{ii:144}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.4.5}Neurons Receive Both Excitatory and Inhibitory Inputs}{145}{subsection.19.4.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.4.6}Transmitter-gated Ion Channels Are Major Targets for Psychoactive Drugs}{145}{subsection.19.4.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {19.4.7}Synaptic Connections Enable you to Think, Act, and Remember}{145}{subsection.19.4.7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.3.3}Different Types of Stimuli Influence the Opening and Closing of Ion Channels}{145}{subsection.20.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.3.4}Voltage-gated Ion Channels Respond to the Membrane Potential}{145}{subsection.20.3.4}}
 \mph@setcol{ii:145}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {19.5}Essential concepts}{146}{section.19.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.3.5}Membrane Potential Is Governed by Membrane Permeability to Specific Ions}{146}{subsection.20.3.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {20.4}Ion channels and signaling in nerve cells}{146}{section.20.4}}
 \mph@setcol{ii:146}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.4.1}Action Potentials Provide for Rapid Long-Distance Communication}{147}{subsection.20.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.4.2}Action Potentials Are Usually Mediated by Voltage-gated $Na^{+}$ Channels}{147}{subsection.20.4.2}}
 \mph@setcol{ii:147}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.4.3}Voltage-gated $Ca^{2+}$ Channels Convert Electrical Signals into Chemical Signals at Nerve Terminals}{148}{subsection.20.4.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.4.4}Transmitter-gated Channels in Target Cells Convert Chemical Signals Back into Electrical Signals}{148}{subsection.20.4.4}}
 \mph@setcol{ii:148}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {20}Energy Generation in Mitochondria and Chloroplasts}{149}{chapter.20}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.4.5}Neurons Receive Both Excitatory and Inhibitory Inputs}{149}{subsection.20.4.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.4.6}Transmitter-gated Ion Channels Are Major Targets for Psychoactive Drugs}{149}{subsection.20.4.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {20.4.7}Synaptic Connections Enable you to Think, Act, and Remember}{149}{subsection.20.4.7}}
 \mph@setcol{ii:149}{\mph@nr}
+\@writefile{toc}{\contentsline {section}{\numberline {20.5}Essential concepts}{150}{section.20.5}}
 \mph@setcol{ii:150}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {21}How cells obtain energy from food}{151}{chapter.21}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {21.1}The breakdown and utilization of sugars and fats}{151}{section.21.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {21.1.1}Food Molecules are Broken down in Three Stages}{151}{subsection.21.1.1}}
 \mph@setcol{ii:151}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {21.1.2}Glycolysis is a Central ATP-producing Pathway}{152}{subsection.21.1.2}}
 \mph@setcol{ii:152}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {21.1.3}Fermentations allow ATP to Be Produced in the absence of oxygen}{153}{subsection.21.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {21.1.4}Glycolysis illustrates how enzymes Couple oxidation to energy Storage}{153}{subsection.21.1.4}}
-\mph@setcol{ii:153}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {21.1.5}Sugars and fats are Both degraded to acetyl Coa in Mitochondria}{154}{subsection.21.1.5}}
-\mph@setcol{ii:154}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {21.1.6}The Citric acid Cycle generates nadh by oxidizing acetyl groups to $CO_2$}{155}{subsection.21.1.6}}
-\mph@setcol{ii:155}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {21.1.7}Many Biosynthetic Pathways Begin with glycolysis or the Citric acid Cycle}{156}{subsection.21.1.7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {21.1.8}Electron Transport drives the Synthesis of the Majority of the ATP in Most Cells}{156}{subsection.21.1.8}}
-\@writefile{toc}{\contentsline {section}{\numberline {21.2}Regulation of Metabolism}{156}{section.21.2}}
-\mph@setcol{ii:156}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {21.2.1}Catabolic and anabolic reactions are organized and regulated}{157}{subsection.21.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {21.2.2}Feedback regulation allows Cells to Switch from glucose degradation to glucose Biosynthesis}{157}{subsection.21.2.2}}
-\mph@setcol{ii:157}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {21.2.3}Cells Store food Molecules in Special reservoirs to Prepare for Periods of need}{158}{subsection.21.2.3}}
-\mph@setcol{ii:158}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {21.3}Essential concepts}{159}{section.21.3}}
-\mph@setcol{ii:159}{\mph@nr}
-\mph@setcol{ii:160}{\mph@nr}
-\@writefile{toc}{\contentsline {chapter}{\numberline {22}Energy generation in Mithocondria and Chloroplast}{161}{chapter.22}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {21}Energy Generation in Mitochondria and Chloroplasts}{153}{chapter.21}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
+\mph@setcol{ii:153}{\mph@nr}
+\mph@setcol{ii:154}{\mph@nr}
+\@writefile{toc}{\contentsline {chapter}{\numberline {22}How cells obtain energy from food}{155}{chapter.22}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {22.1}The breakdown and utilization of sugars and fats}{155}{section.22.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.1}Food Molecules are Broken down in Three Stages}{155}{subsection.22.1.1}}
+\mph@setcol{ii:155}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.2}Glycolysis is a Central ATP-producing Pathway}{156}{subsection.22.1.2}}
+\mph@setcol{ii:156}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.3}Fermentations allow ATP to Be Produced in the absence of oxygen}{157}{subsection.22.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.4}Glycolysis illustrates how enzymes Couple oxidation to energy Storage}{157}{subsection.22.1.4}}
+\mph@setcol{ii:157}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.5}Sugars and fats are Both degraded to acetyl Coa in Mitochondria}{158}{subsection.22.1.5}}
+\mph@setcol{ii:158}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.6}The Citric acid Cycle generates nadh by oxidizing acetyl groups to $CO_2$}{159}{subsection.22.1.6}}
+\mph@setcol{ii:159}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.7}Many Biosynthetic Pathways Begin with glycolysis or the Citric acid Cycle}{160}{subsection.22.1.7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.8}Electron Transport drives the Synthesis of the Majority of the ATP in Most Cells}{160}{subsection.22.1.8}}
+\@writefile{toc}{\contentsline {section}{\numberline {22.2}Regulation of Metabolism}{160}{section.22.2}}
+\mph@setcol{ii:160}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {22.2.1}Catabolic and anabolic reactions are organized and regulated}{161}{subsection.22.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {22.2.2}Feedback regulation allows Cells to Switch from glucose degradation to glucose Biosynthesis}{161}{subsection.22.2.2}}
 \mph@setcol{ii:161}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {22.1}Mithocondria and oxidative phosphorylation}{162}{section.22.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.1}A Mitochondrion Contains an Outer Membrane, an Inner Membrane, and Two Internal Compartments}{162}{subsection.22.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {22.2.3}Cells Store food Molecules in Special reservoirs to Prepare for Periods of need}{162}{subsection.22.2.3}}
 \mph@setcol{ii:162}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.2}The Citric Acid Cycle generates High-Energy Electrons}{163}{subsection.22.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.3}A Chemiosmotic Process Converts the Energy from Activated Carrier Molecules into ATP}{163}{subsection.22.1.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {22.3}Essential concepts}{163}{section.22.3}}
 \mph@setcol{ii:163}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.4}The Electron-Transport Chain Pumps Protons Across the Inner Mitochondrial Membrane}{164}{subsection.22.1.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.5}Proton Pumping Creates a Steep Electrochemical Proton gradient Across the Inner Mitochondrial Membrane}{164}{subsection.22.1.5}}
 \mph@setcol{ii:164}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.6}The Electrochemical Proton gradient Drives ATP Synthesis}{165}{subsection.22.1.6}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {23}Energy generation in Mithocondria and Chloroplast}{165}{chapter.23}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
 \mph@setcol{ii:165}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.7}Coupled Transport Across the Inner Mitochondrial Membrane Is Also Driven by the Electrochemical Proton gradient}{166}{subsection.22.1.7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.8}Oxidative Phosphorylation Produces Most of the Cell\IeC {\textquoteright }s ATP}{166}{subsection.22.1.8}}
+\@writefile{toc}{\contentsline {section}{\numberline {23.1}Mithocondria and oxidative phosphorylation}{166}{section.23.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.1.1}A Mitochondrion Contains an Outer Membrane, an Inner Membrane, and Two Internal Compartments}{166}{subsection.23.1.1}}
 \mph@setcol{ii:166}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.1.9}The Rapid Conversion of ADP to ATP in Mitochondria Maintains a High ATP/ADP Ratio in Cells}{167}{subsection.22.1.9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.1.2}The Citric Acid Cycle generates High-Energy Electrons}{167}{subsection.23.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.1.3}A Chemiosmotic Process Converts the Energy from Activated Carrier Molecules into ATP}{167}{subsection.23.1.3}}
 \mph@setcol{ii:167}{\mph@nr}
-\@writefile{toc}{\contentsline {section}{\numberline {22.2}Molecular mechanisms of electron transport and proton pumping}{168}{section.22.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.2.1}Protons Are Readily Moved by the Transfer of Electrons}{168}{subsection.22.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.2.2}The Redox Potential Is a Measure of Electron Affinities}{168}{subsection.22.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.2.3}Metals Tightly Bound to Proteins form Versatile Electron Carriers}{168}{subsection.22.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.1.4}The Electron-Transport Chain Pumps Protons Across the Inner Mitochondrial Membrane}{168}{subsection.23.1.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.1.5}Proton Pumping Creates a Steep Electrochemical Proton gradient Across the Inner Mitochondrial Membrane}{168}{subsection.23.1.5}}
 \mph@setcol{ii:168}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.2.4}Cytochrome Oxidase Catalyzes the Reduction of Molecular Oxygen}{169}{subsection.22.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.1.6}The Electrochemical Proton gradient Drives ATP Synthesis}{169}{subsection.23.1.6}}
 \mph@setcol{ii:169}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.2.5}Respiration Is Amazingly Efficient}{170}{subsection.22.2.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {22.3}Chloroplasts and photosynthesis}{170}{section.22.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.3.1}Chloroplasts Resemble Mitochondria but Have an Extra Compartment}{170}{subsection.22.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.1.7}Coupled Transport Across the Inner Mitochondrial Membrane Is Also Driven by the Electrochemical Proton gradient}{170}{subsection.23.1.7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.1.8}Oxidative Phosphorylation Produces Most of the Cell\IeC {\textquoteright }s ATP}{170}{subsection.23.1.8}}
 \mph@setcol{ii:170}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.3.2}Chloroplasts Capture Energy from Sunlight and use it to fix Carbon}{171}{subsection.22.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.1.9}The Rapid Conversion of ADP to ATP in Mitochondria Maintains a High ATP/ADP Ratio in Cells}{171}{subsection.23.1.9}}
 \mph@setcol{ii:171}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.3.3}Sunlight is Absorbed by Chlorophyll Molecules}{172}{subsection.22.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.3.4}Excited Chlorophyll Molecules funnel Energy into a Reaction Center}{172}{subsection.22.3.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {23.2}Molecular mechanisms of electron transport and proton pumping}{172}{section.23.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.2.1}Protons Are Readily Moved by the Transfer of Electrons}{172}{subsection.23.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.2.2}The Redox Potential Is a Measure of Electron Affinities}{172}{subsection.23.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.2.3}Metals Tightly Bound to Proteins form Versatile Electron Carriers}{172}{subsection.23.2.3}}
 \mph@setcol{ii:172}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.3.5}Light Energy Drives the Synthesis of Both ATP and NADPH}{173}{subsection.22.3.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.2.4}Cytochrome Oxidase Catalyzes the Reduction of Molecular Oxygen}{173}{subsection.23.2.4}}
 \mph@setcol{ii:173}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.3.6}Chloroplasts Can Adjust their ATP Production}{174}{subsection.22.3.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.3.7}Carbon fixation uses ATP and NADPH to Convert $CO_2$ into Sugars}{174}{subsection.22.3.7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.2.5}Respiration Is Amazingly Efficient}{174}{subsection.23.2.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {23.3}Chloroplasts and photosynthesis}{174}{section.23.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.3.1}Chloroplasts Resemble Mitochondria but Have an Extra Compartment}{174}{subsection.23.3.1}}
 \mph@setcol{ii:174}{\mph@nr}
-\@writefile{toc}{\contentsline {subsection}{\numberline {22.3.8}Sugars generated by Carbon fixation Can Be Stored As Starch or Consumed to Produce ATP}{175}{subsection.22.3.8}}
-\@writefile{toc}{\contentsline {section}{\numberline {22.4}Essential concepts}{175}{section.22.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.3.2}Chloroplasts Capture Energy from Sunlight and use it to fix Carbon}{175}{subsection.23.3.2}}
 \mph@setcol{ii:175}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.3.3}Sunlight is Absorbed by Chlorophyll Molecules}{176}{subsection.23.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.3.4}Excited Chlorophyll Molecules funnel Energy into a Reaction Center}{176}{subsection.23.3.4}}
 \mph@setcol{ii:176}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.3.5}Light Energy Drives the Synthesis of Both ATP and NADPH}{177}{subsection.23.3.5}}
+\mph@setcol{ii:177}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.3.6}Chloroplasts Can Adjust their ATP Production}{178}{subsection.23.3.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.3.7}Carbon fixation uses ATP and NADPH to Convert $CO_2$ into Sugars}{178}{subsection.23.3.7}}
+\mph@setcol{ii:178}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {23.3.8}Sugars generated by Carbon fixation Can Be Stored As Starch or Consumed to Produce ATP}{179}{subsection.23.3.8}}
+\@writefile{toc}{\contentsline {section}{\numberline {23.4}Essential concepts}{179}{section.23.4}}
+\mph@setcol{ii:179}{\mph@nr}
+\mph@setcol{ii:180}{\mph@nr}
+\@writefile{toc}{\contentsline {chapter}{\numberline {24}Intracellular Compartments and Transport}{181}{chapter.24}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {24.1}Membrane-enclosed organelles}{181}{section.24.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.1.1}Eucaryotic Cells Contain a Basic Set of Membrane-enclosed Organelles}{181}{subsection.24.1.1}}
+\mph@setcol{ii:181}{\mph@nr}
+\mph@setcol{ii:182}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.1.2}Membrane-enclosed Organelles Evolved in Different Ways}{183}{subsection.24.1.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {24.2}Protein sorting}{183}{section.24.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.2.1}Proteins Are Imported into Organelles by Three Mechanisms}{183}{subsection.24.2.1}}
+\mph@setcol{ii:183}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.2.2}Signal Sequences Direct Proteins to the Correct Compartment}{184}{subsection.24.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.2.3}Proteins Enter the Nucleus Through Nuclear Pores}{184}{subsection.24.2.3}}
+\mph@setcol{ii:184}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.2.4}Proteins unfold to Enter Mitochondria and Chloroplasts}{185}{subsection.24.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.2.5}Proteins Enter the Endoplasmic Reticulum While Being Synthesized}{185}{subsection.24.2.5}}
+\mph@setcol{ii:185}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.2.6}Soluble proteins are released into the ER lumen}{186}{subsection.24.2.6}}
+\mph@setcol{ii:186}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.2.7}Start and Stop Signals Determine the Arrangement of a Transmembrane Protein in the Lipid Bilayer}{187}{subsection.24.2.7}}
+\mph@setcol{ii:187}{\mph@nr}
+\@writefile{toc}{\contentsline {section}{\numberline {24.3}Vesicular transport}{188}{section.24.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.3.1}Transport vesicles Carry Soluble Proteins and Membrane Between Compartments}{188}{subsection.24.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.3.2}Vesicle Budding Is Driven by the Assembly of a Protein Coat}{188}{subsection.24.3.2}}
+\mph@setcol{ii:188}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.3.3}Vesicle Docking Depends on Tethers and SNAREs}{189}{subsection.24.3.3}}
+\mph@setcol{ii:189}{\mph@nr}
+\@writefile{toc}{\contentsline {section}{\numberline {24.4}Secretory pathways}{190}{section.24.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.4.1}Most Proteins Are Covalently Modified in the ER}{190}{subsection.24.4.1}}
+\mph@setcol{ii:190}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.4.2}Exit from the ER Is Controlled to Ensure Protein quality}{191}{subsection.24.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.4.3}The Size of the ER Is Controlled by the Amount of Protein that Flows Through It}{191}{subsection.24.4.3}}
+\mph@setcol{ii:191}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.4.4}Proteins Are Further Modified and Sorted in the Golgi Apparatus}{192}{subsection.24.4.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.4.5}Secretory Proteins Are Released from the Cell by Exocytosis}{192}{subsection.24.4.5}}
+\mph@setcol{ii:192}{\mph@nr}
+\@writefile{toc}{\contentsline {section}{\numberline {24.5}Encocytic pathways}{193}{section.24.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.5.1}Specialized Phagocytic Cells Ingest Large Particles}{193}{subsection.24.5.1}}
+\mph@setcol{ii:193}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.5.2}Fluid and Macromolecules Are Taken up by Pinocytosis}{194}{subsection.24.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.5.3}Receptor-mediated Endocytosis Provides a Specific Route into Animal Cells}{194}{subsection.24.5.3}}
+\mph@setcol{ii:194}{\mph@nr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.5.4}Endocytosed Macromolecules Are Sorted in Endosomes}{195}{subsection.24.5.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {24.5.5}Lysosomes Are the Principal Sites of Intracellular Digestion}{195}{subsection.24.5.5}}
+\mph@setcol{ii:195}{\mph@nr}
+\@writefile{toc}{\contentsline {section}{\numberline {24.6}Essential concepts}{196}{section.24.6}}
+\mph@setcol{ii:196}{\mph@nr}
+\mph@setcol{ii:197}{\mph@nr}
+\mph@setcol{ii:198}{\mph@nr}
+\@writefile{toc}{\contentsline {chapter}{\numberline {25}Cell Communication}{199}{chapter.25}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\mph@setcol{ii:199}{\mph@nr}
+\mph@setcol{ii:200}{\mph@nr}
+\@writefile{toc}{\contentsline {chapter}{\numberline {26}Cytoskeleton}{201}{chapter.26}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\mph@setcol{ii:201}{\mph@nr}
+\mph@setcol{ii:202}{\mph@nr}
+\@writefile{toc}{\contentsline {chapter}{\numberline {27}The Cell Division Cycle}{203}{chapter.27}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\mph@setcol{ii:203}{\mph@nr}
 \@setckpt{res/listOfSections}{
-\setcounter{page}{177}
+\setcounter{page}{204}
 \setcounter{equation}{0}
-\setcounter{enumi}{2}
+\setcounter{enumi}{3}
 \setcounter{enumii}{0}
 \setcounter{enumiii}{0}
 \setcounter{enumiv}{0}
-\setcounter{footnote}{1}
+\setcounter{footnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{part}{2}
-\setcounter{chapter}{22}
-\setcounter{section}{4}
+\setcounter{chapter}{27}
+\setcounter{section}{0}
 \setcounter{subsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
 \setcounter{figure}{0}
 \setcounter{table}{0}
-\setcounter{Item}{44}
+\setcounter{Item}{51}
 \setcounter{Hfootnote}{7}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{ContinuedFloat}{0}

@@ -231,3 +231,37 @@ as a good suggestion.
 It starts with unknown query sequence. Thus, it searches for any putatively 
 homologous sequence with annotation (i.e. with functional information). 
 If found, transfer the information to the unknown sequence.
+
+\chapter{(Local) Alignment and Homology Searching}
+
+\section{Divergent evolution}
+
+In divergent evolution, there is a Common Ancestor (CA). In the descendant, 
+sequences change over time, but protein structures typically remain the same.
+Thus, function normally is preserved within orthologous families.
+Finally, we can say that "structure is more conserved than sequence".
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{divergent_evolution}
+\caption{Differences in divergent evolution}
+\label{Differences in divergent evolution}
+\end{figure}
+
+\subsection{Reconstructing divergent evolution}
+
+Let's say that we have an ancestral sequence ABCD. Two evolutions, for example, 
+could be ACCD (due to mutation of B to C) or ABD (due to deletion of C).
+We can try to make a pairwise alignment to determinate which could be the best 
+matching piecewise (local) or global alignments of two query sequences.
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{pairwise_alignment}
+\caption{Example of pairwise alignment}
+\label{Example of pairwise alignment}
+\end{figure}
+
+This can be done with both DNA and proteins.
+
+\section{Evolution and 3D protein structural information}
